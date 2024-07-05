@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -164,6 +164,14 @@ const Header = () => {
                 </Link>
                 <div>
                   <ThemeToggler />
+                </div>
+                <div className="flex items-start justify-start">
+                  <svg width="40" height="40" viewBox="0 0 640 480" className="fill-current">
+                      <path fill="#007a5e" d="M0 0h213.3v480H0z"/>
+                      <path fill="#ce1126" d="M213.3 0h213.4v480H213.3z"/>
+                      <path fill="#fcd116" d="M426.7 0H640v480H426.7z"/>
+                      <path fill="#fcd116" d="M320 196.6l28.2 86.7h91.2l-73.7 53.6 28.2 86.7-73.7-53.6-73.7 53.6 28.2-86.7-73.7-53.6h91.2z"/>
+                  </svg>
                 </div>
               </div>
             </div>
