@@ -1,15 +1,16 @@
-import Blog from "@/components/Blog";
+import Avis from "@/components/Avis";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
+import Accueil from "@/components/Accueil";
+import PointD from "@/components/PointD";
 import Atouts from "@/components/Atout";
 import Partenaire from "@/components/Partenaires";
 import Stats from "@/components/stat";
 import { Metadata } from "next";
 import dynamic from 'next/dynamic';
+import Abonnement from "@/components/Abonnement";
+import Map from "@/components/Map";
 
 
 export const metadata: Metadata = {
@@ -20,20 +21,20 @@ export const metadata: Metadata = {
 
 export default function Home() {
 
-  const Video = dynamic(() => import('@/components/Video'), { ssr: false });
+  const Video = dynamic(() => import('@/components/Map'), { ssr: false });
 
   return (
     <>
       <ScrollUp />
-      <Hero />
+      <Accueil />
       <Features />
       <Atouts />
       <Partenaire />
-      <Blog />
-      <Video />
-      <Pricing />
+      <PointD />
+      <Map />
+      <Abonnement />
       <Stats />
-      <Testimonials />
+      <Avis />
       <Contact />
     </>
   );

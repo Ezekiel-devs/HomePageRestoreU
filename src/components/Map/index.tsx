@@ -6,7 +6,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import { Geocoder } from "@mapbox/search-js-react";
 import SectionTitle from "../Common/SectionTitle";
 
-const Video = () => {
+const Map = () => {
   const mapContainerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const [mapLoaded, setMapLoaded] = useState(false);
@@ -130,4 +130,4 @@ const Video = () => {
   );
 };
 
-export default Video;
+export default Map;

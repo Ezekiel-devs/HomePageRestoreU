@@ -1,9 +1,9 @@
-import { Blog } from "@/types/blog";
+import { PointD } from "@/types/pointD";
 import Image from "next/image";
 import Link from "next/link";
 
-const SingleBlog = ({ blog }: { blog: Blog }) => {
-  const { title, paragraph, image, heureO, heureF } = blog;
+const SinglePoint = ({ pointD }: { pointD: PointD }) => {
+  const { title, paragraph, image, heureO, heureF } = pointD;
   return (
     <>
       <div className="group relative overflow-hidden rounded-sm bg-white shadow-one duration-300 hover:shadow-two dark:bg-dark dark:hover:shadow-gray-dark">
@@ -40,4 +40,4 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
   );
 };
 
-export default SingleBlog;
+export default SinglePoint;

@@ -4,7 +4,7 @@ import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
 
-const Pricing = () => {
+const Abonnement = () => {
   const [isMonthly, setIsMonthly] = useState(true);
 
   return (
@@ -129,4 +129,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Abonnement;

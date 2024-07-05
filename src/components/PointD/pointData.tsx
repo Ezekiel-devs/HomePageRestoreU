@@ -1,6 +1,6 @@
-import { Blog } from "@/types/blog";
+import { PointD} from "@/types/pointD";
 
-const blogData: Blog[] = [
+const pointData: PointD[] = [
   {
     id: 1,
     title: "BAFOUSSAM I",
@@ -26,4 +26,4 @@ const blogData: Blog[] = [
     heureF: "15h00",
   },
 ];
-export default blogData;
+export default pointData;

@@ -38,7 +38,7 @@ const FAQ = () => {
   return (
     <div className="mx-auto my-8 w-full max-w-2xl p-4">
       <h2 className="text-gray-900 mb-4 text-2xl font-bold dark:text-white">
-        Frequently asked questions
+        Questions fréquemment posée s
       </h2>
       {faqs.map((faq, index) => (
         <div key={index} className="mb-4">

@@ -1,5 +1,5 @@
 
-export type Blog = {
+export type PointD = {
   id: number;
   title: string;
   paragraph: string;

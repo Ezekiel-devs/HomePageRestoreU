@@ -25,7 +25,7 @@ const statData: Stat[] = [
     ),
     designation: "50",
     paragraph:
-      "Objet chaque mois.",
+      "Objets chaque mois.",
   },
   {
     id: 2,
