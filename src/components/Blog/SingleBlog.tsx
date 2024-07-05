@@ -24,7 +24,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
 
               <div className="w-full">
                 <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
-                  Heure d'ouverture : {heureO}
+                  Heure ouverture : {heureO}
                 </h4>
               </div>
             </div>

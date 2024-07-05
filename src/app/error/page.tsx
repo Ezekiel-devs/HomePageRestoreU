@@ -145,7 +145,7 @@ const ErrorPage = () => {
                   Désolé, la page est introuvable
                 </h3>
                 <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  La page que vous recherchiez semble avoir été déplacée, supprimée ou n'existe pas.
+                  La page que vous recherchiez semble avoir été déplacée, supprimée ou existe pas.
                 </p>
                 <Link
                   href="/"

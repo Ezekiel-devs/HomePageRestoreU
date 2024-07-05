@@ -16,8 +16,8 @@ const Hero = () => {
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   Vous avez egarés un document ? Vous ne savez pas quoi faire ?
-                  Pas d'inquietude !! Nous sommes là pour vous. Essayez notre
-                  solution et obversez la magie s'opérer, nous nous engageons à
+                  Pas inquietude !! Nous sommes là pour vous. Essayez notre
+                  solution et obversez la magie opérer, nous nous engageons à
                   retrouver votre document le plut tôt !
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
